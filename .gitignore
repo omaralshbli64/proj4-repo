@@ -1,9 +1,29 @@
+# Python virtual environment
 venv/
+.venv/
+
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-models/*.pkl
-
+# Environment variables
 .env
 
+# Jupyter Notebook files
 .ipynb_checkpoints/
+
+# Trained machine learning models
+models/*.pkl
+
+# Temporary files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
